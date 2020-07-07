@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "tasks.h"
-
+//am adaugat un comentariu
 int log2n(int n) {
     int res = -1;
     while (n) {
