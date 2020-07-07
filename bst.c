@@ -37,7 +37,7 @@ void printBST(BST *root, FILE *fout) {
     }
 
     printBST(root->right, fout);
-    fprintf(fout, "%s %s %d\n", 
+    fprintf(fout, "%s %s %d\n",
         root->player.last_name, root->player.first_name, root->player.score);
     printBST(root->left, fout);
 
